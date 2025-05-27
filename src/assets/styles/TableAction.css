@@ -1,0 +1,14 @@
+.box{
+    background: #fff;
+    min-height: 280px;
+    padding: 24px;
+    border-radius: 8px;
+}
+
+.box-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.box-header .titulo{width: auto; margin: 0;}

@@ -1,0 +1,18 @@
+body {
+  background-color: #f5f5f5;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+a{transition: 0.3s;}
+
+.header{
+    display: flex; 
+    align-items: center;
+}
+
+.menu{
+    flex: 1;
+    min-width: 0;
+}
+
+.footer{ text-align: center; }

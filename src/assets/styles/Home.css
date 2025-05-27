@@ -1,0 +1,5 @@
+.content{ padding: 0 48px; }
+
+.breadcrumb{ margin: 16px 0; }
+.breadcrumb .item{cursor: pointer;}
+.breadcrumb .item:hover{color: #1677ff;}
