@@ -12,3 +12,20 @@
     margin-bottom: 16px;
 }
 .box-header .titulo{width: auto; margin: 0;}
+
+@media (max-width: 1000px) {
+ .box{padding: 8px; min-height: 160px;} 
+ .box .box-header{margin-bottom: 12px;}
+ .box .box-header .titulo{font-size: 16px;}  
+ .box .box-header .ant-btn{font-size: 12px; padding: 0 10px;}
+ .box .box-header .ant-btn .ant-btn-icon{display: none;}
+ 
+ .box .ant-table-wrapper .ant-table-content .ant-table-thead tr th{font-size: 12px; padding: 8px;}
+ .box .ant-table-wrapper .ant-table-content .ant-table-tbody tr td{font-size: 12px; padding: 8px;}
+ .box .ant-table-wrapper .ant-table-content .ant-table-tbody tr td .ant-space .ant-space-item .ant-btn{width: 24px; height: 24px;}
+
+ .box .ant-table-wrapper .ant-pagination{margin: 16px 0 8px; justify-content: center;}
+ .box .ant-table-wrapper .ant-pagination li{min-width: 24px; width: 24px; height: 24px;}
+ .box .ant-table-wrapper .ant-pagination li a{width: 100%; height: 100%; line-height: 24px; text-align: center; padding: 0;}
+ .box .ant-table-wrapper .ant-pagination li button{display: flex; flex-wrap: wrap; justify-content: center; align-items: center;}
+}

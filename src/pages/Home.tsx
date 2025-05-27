@@ -35,6 +35,7 @@ import { fornecedoresColumns } from "../columns/fornecedores";
 import { tiposAtivosColumns } from "../columns/tiposAtivos";
 import { ativosColumns } from "../columns/ativos";
 import { contratosVendaColumns } from "../columns/contratosVenda";
+import { contratoItensColumns } from "../columns/contratoItens";
 
 import AppHeader from "../components/AppHeader";
 import AppFooter from "../components/AppFooter";
@@ -48,7 +49,6 @@ import type { TipoAtivo } from "../types/tipoAtivo";
 import type { RegistroTypes } from "../types/registroTypes";
 
 import "../assets/styles/Home.css";
-import { contratoItensColumns } from "../columns/contratoItens";
 
 const { Content } = Layout;
 
@@ -528,6 +528,7 @@ const Home: React.FC = () => {
       <AppFooter />
 
       <Modal
+        className="modal"
         open={isModalVisible}
         footer={null}
         onCancel={handleCancel}

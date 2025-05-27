@@ -14,12 +14,13 @@ const AppHeader: React.FC = () => {
   };
 
   return (
-    <Layout.Header>
+    <Layout.Header className="header">
       <Menu
         theme="dark"
         mode="horizontal"
         selectedKeys={[currentPath]}
         onClick={handleClick}
+        className="menu"
         items={[
           { key: "", label: "Home" },
           { key: "fornecedores", label: "Fornecedores" },

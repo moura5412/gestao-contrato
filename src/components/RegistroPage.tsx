@@ -12,6 +12,7 @@ import {
 import { useEffect, useState } from "react";
 import { getTiposAtivo } from "../services/tipoAtivo";
 import { getFornecedores } from "../services/fornecedores";
+import { getAtivos } from "../services/ativos";
 
 import type { FormField } from "../types/formField";
 import type { RegistroTypes } from "../types/registroTypes";
@@ -19,7 +20,8 @@ import type { TipoAtivo } from "../types/tipoAtivo";
 import type { Rule } from "antd/es/form";
 import type { Fornecedor } from "../types/fornecedor";
 import type { Ativo } from "../types/ativo";
-import { getAtivos } from "../services/ativos";
+
+import "../assets/styles/RegistroPage.css";
 
 const { Title } = Typography;
 
