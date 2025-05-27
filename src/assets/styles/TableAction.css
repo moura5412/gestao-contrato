@@ -29,3 +29,7 @@
  .box .ant-table-wrapper .ant-pagination li a{width: 100%; height: 100%; line-height: 24px; text-align: center; padding: 0;}
  .box .ant-table-wrapper .ant-pagination li button{display: flex; flex-wrap: wrap; justify-content: center; align-items: center;}
 }
+
+@media (max-width: 575px) {
+.box .ant-table-wrapper .ant-table{overflow-x: scroll;}
+}
