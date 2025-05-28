@@ -14,66 +14,66 @@ Sistema web para gerenciamento de contratos de venda, ativos, fornecedores e tip
 
 ## Estrutura do Projeto
 
-gestao-contrato/
-gestao-contrato/
-│
-├── public/
-│ └── menu.svg
-│
-├── src/
-│ ├── assets/
-│ │ └── styles/
-│ │ ├── Global.css
-│ │ ├── Home.css
-│ │ ├── RegistroPage.css
-│ │ └── TableAction.css
-│ │
-│ ├── columns/
-│ │ ├── ativo.ts
-│ │ ├── contratoItens.ts
-│ │ ├── contratoVenda.ts
-│ │ ├── fornecedores.ts
-│ │ └── tiposAtivos.ts
-│ │
-│ ├── components/
-│ │ ├── AppFooter.tsx
-│ │ ├── AppHeader.tsx
-│ │ ├── RegistroPage.tsx
-│ │ └── TableAction.tsx
-│ │
-│ ├── context/
-│ │ └── AppContext.tsx
-│ │
-│ ├── pages/
-│ │ └── Home.tsx
-│ │
-│ ├── services/
-│ │ ├── api.ts
-│ │ ├── ativos.ts
-│ │ ├── contratoVenda.ts
-│ │ ├── fornecedores.ts
-│ │ └── tipoAtivo.ts
-│ │
-│ ├── types/
-│ │ ├── ativo.ts
-│ │ ├── contratoVenda.ts
-│ │ ├── formField.ts
-│ │ ├── fornecedor.ts
-│ │ ├── registroTypes.ts
-│ │ └── tipoAtivo.ts
-│ │
-│ ├── main.tsx
-│ └── vite-env.d.ts
-│
-├── .gitignore
-├── eslint.config.js
-├── index.html
-├── package-lock.json
-├── package.json
-├── tsconfig.app.json
-├── tsconfig.json
-├── tsconfig.node.json
-└── vite.config.ts
+public
+
+- menu.svg
+
+src
+
+- assets
+- styles
+- Global.css
+- Home.css
+- RegistroPage.css
+- TableAction.css
+
+- columns
+- ativo.ts
+- contratoItens.ts
+- contratoVenda.ts
+- fornecedores.ts
+- tiposAtivos.ts
+
+- components
+- AppFooter.tsx
+- AppHeader.tsx
+- RegistroPage.tsx
+- TableAction.tsx
+
+- context
+- AppContext.tsx
+
+- pages
+- Home.tsx
+
+- services
+- api.ts
+- ativos.ts
+- contratoVenda.ts
+- fornecedores.ts
+- tipoAtivo.ts
+
+- types
+- ativo.ts
+- contratoVenda.ts
+- formField.ts
+- fornecedor.ts
+- registroTypes.ts
+- tipoAtivo.ts
+
+- main.tsx
+- vite-env.d.ts
+
+gitgnore
+eslint.config.js
+index.html
+package-lock.json
+package.json
+README.md
+tsconfig.app.json
+tsconfig.json
+tsconfig.node.json
+vite.config.ts
 
 ## Instalação e Execução
 
