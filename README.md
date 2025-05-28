@@ -21,22 +21,22 @@ Sistema web para gerenciamento de contratos de venda, ativos, fornecedores e tip
 
 ### Passos para executar localmente:
 
-1. **Clone o repositório:**
+    1. **Clone o repositório:**
 
-git clone https://github.com/moura5412/gestao-contrato.git
-cd gestao-contrato
+    git clone https://github.com/moura5412/gestao-contrato.git
+    cd gestao-contrato
 
-2. **Clone o repositório:**
+    2. **Clone o repositório:**
 
-npm install
+    npm install
 
-3. **Execute o projeto em modo de desenvolvimento:**
+    3. **Execute o projeto em modo de desenvolvimento:**
 
-npm run dev
+    npm run dev
 
-4. **Acesse no navegador:**
+    4. **Acesse no navegador:**
 
-http://localhost:5173
+    http://localhost:5173
 
 ## Funcionalidades
 
